@@ -50,3 +50,9 @@ end
 gem 'spree', '2.2.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+
+# Extension tutorial
+gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => '2-2-stable'
+
+# spree core to meet dependency for spree fancy and spree
+gem 'spree_core', '~> 2.2.1'
