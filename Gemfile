@@ -54,5 +54,8 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git
 # Extension tutorial
 gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => '2-2-stable'
 
+# Local extension
+gem 'spree_simple_sales', :path => '../spree_simple_sales'
+
 # spree core to meet dependency for spree fancy and spree
 gem 'spree_core', '~> 2.2.1'
